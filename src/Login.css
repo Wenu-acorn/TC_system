@@ -1,0 +1,210 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/cambodia.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+  }
+  
+  .login-box {
+    display: flex;
+    flex-direction: row;
+    width: 80%; 
+    max-width: 800px; 
+    height: 80%; 
+    max-height: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .login-left {
+    flex: 1;
+    padding: 40px;
+    background: linear-gradient(100deg, #9eb3ff, #8ac5ff ,#97A3F3 ,#5D70EB ,#132EE0);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-header h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .input-field::placeholder {
+    color: #9CA3AF;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 50%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-right {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  
+  .login-right h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .logo {
+    width: 350px; 
+    height: auto; 
+    margin: 0 auto 20px;
+  }
+  
+  
+  .login-right p {
+    font-size: 18px;
+    color: #666;
+  }
+  .login-icon {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+@media (max-width: 768px) {
+    .login-box {
+      flex-direction: column; 
+      width: 90%; 
+      height: auto; 
+      max-height: none; 
+    }
+  
+    .login-left, .login-right {
+      width: 100%; 
+      padding: 20px; 
+    }
+  
+    .login-header h2 {
+      font-size: 24px; 
+    }
+  
+    .login-button {
+      width: 80%; 
+      font-size: 16px;
+    }
+  
+    .logo {
+      width: 250px; 
+    }
+  
+    .login-right h3 {
+      font-size: 24px; 
+    }
+  
+    .input-field {
+      font-size: 14px; 
+    }
+  
+    .login-icon {
+      width: 80px; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .login-box {
+      width: 100%; 
+      border-radius: 0; 
+    }
+  
+    .login-header h2 {
+      font-size: 20px; 
+    }
+  
+    .login-button {
+      padding: 10px; 
+      font-size: 14px; 
+    }
+  
+    .logo {
+      width: 200px; 
+    }
+  
+    .login-right h3 {
+      font-size: 20px; 
+    }
+  
+    .input-field {
+      padding: 10px; 
+      font-size: 12px; 
+    }
+  
+    .login-icon {
+      width: 60px; 
+    }
+  }
+  

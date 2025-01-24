@@ -1,0 +1,192 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./assets/cambodia.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .edit-button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 1px 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.6rem;
+  }
+  
+  .edit-button {
+    background-color: #27ae60;
+  }
+  
+  .edit-button:hover {
+    opacity: 0.9;
+  }
+  
+  .profile-header h2 {
+    color: #34495e;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .profile-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #34495e;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .change-photo-btn {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .detail-group {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .detail-group h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-item label {
+    font-weight: bold;
+    color: #34495e;
+    min-width: 120px;
+  }
+  
+  .detail-item span {
+    color: #2c3e50;
+  }
+  
+  .detail-item input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cancel-button, .save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cancel-button {
+    background-color: #95a5a6;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .cancel-button:hover, .save-button:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-card {
+      padding: 20px;
+    }
+  
+    .detail-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+  
+    .detail-item input {
+      width: 100%;
+    }
+  }
+  
+  .back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  
+  .back-button:hover {
+    opacity: 0.9;
+  }
+  
