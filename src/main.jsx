@@ -6,6 +6,7 @@ import Home from './Home.jsx'
 import Profile from './Profile.jsx'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Password from './password'
+import VehicleRegistration from './VehicleRegistration.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/password" element={<Password />} />
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/vehicle-registration" element={<VehicleRegistration />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

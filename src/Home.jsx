@@ -57,6 +57,13 @@ function Home() {
       <div className="sidebar">
         <h2>Data Entering & Reports</h2>
         
+        {/* Vehicle Registration Button */}
+        <div className="menu-group">
+          <button className="report-button" onClick={() => navigate('/vehicle-registration')}>
+            Enter Vehicle Registration
+          </button>
+        </div>
+        
         {/* Log Sheet Summaries Section with Dropdown */}
         <div className="menu-group">
           <button className="report-button" onClick={toggleSubmenu}>
